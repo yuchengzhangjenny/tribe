@@ -1,19 +1,13 @@
 {
-  "name": "tribe",
+  "name": "tribe-client",
   "version": "1.0.0",
-  "main": "server/index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "node server/index.js",
-    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
-    "dev:client": "cd client && expo start",
-    "dev:server": "nodemon server/index.js",
-    "client": "cd client && expo start",
-    "server": "nodemon server/index.js",
-    "android": "cd client && expo run:android",
-    "ios": "cd client && expo run:ios",
-    "web": "cd client && expo start --web",
-    "build": "cd client && expo build",
-    "test": "jest"
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "build": "expo build"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -25,18 +19,13 @@
     "@react-navigation/native-stack": "^7.3.10",
     "@react-navigation/stack": "^7.2.10",
     "@reduxjs/toolkit": "^2.6.1",
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
     "date-fns": "^4.1.0",
-    "dotenv": "^16.4.5",
-    "express": "^4.18.3",
     "expo": "~52.0.43",
     "expo-dev-client": "~5.0.19",
     "expo-image-picker": "^16.0.6",
     "expo-location": "^18.0.10",
     "expo-status-bar": "~2.0.1",
     "firebase": "^11.6.0",
-    "firebase-admin": "^13.2.0",
     "react": "18.3.1",
     "react-native": "0.76.9",
     "react-native-gesture-handler": "^2.25.0",
@@ -52,10 +41,7 @@
     "@babel/core": "^7.25.2",
     "@types/react": "~18.3.12",
     "@types/react-native": "^0.72.8",
-    "concurrently": "^8.2.2",
-    "jest": "^29.7.0",
-    "nodemon": "^3.1.0",
     "typescript": "^5.3.3"
   },
   "private": true
-}
+} 

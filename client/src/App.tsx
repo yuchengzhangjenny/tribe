@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
-import AppNavigator from './src/navigation/AppNavigator';
-import { RegistrationProvider } from './src/contexts/RegistrationContext';
+import AppNavigator from './navigation/AppNavigator';
+import { RegistrationProvider } from './contexts/RegistrationContext';
 import { LogBox } from 'react-native';
 
 // Initialize Firebase
-import './src/config/firebase';
+import '../config/firebase';
 
 // Ignore specific warnings (optional)
 LogBox.ignoreLogs([

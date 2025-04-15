@@ -1,0 +1,11 @@
+export { default as NameScreen } from './NameScreen';
+export { default as DateOfBirthScreen } from './DateOfBirthScreen';
+export { default as GenderScreen } from './GenderScreen';
+export { default as HometownScreen } from './HometownScreen';
+export { default as CurrentLocationScreen } from './CurrentLocationScreen';
+export { default as ProfessionScreen } from './ProfessionScreen';
+export { default as SchoolScreen } from './SchoolScreen';
+export { default as HobbiesScreen } from './HobbiesScreen';
+export { default as ProfilePictureScreen } from './ProfilePictureScreen';
+export { default as PurposeScreen } from './PurposeScreen';
+export { default as RegistrationCompleteScreen } from './RegistrationCompleteScreen'; 
